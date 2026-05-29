@@ -1,8 +1,7 @@
-%% Example CV - [YOUR_NAME]
+%% Master CV - Ashbin Jaison
 %% Comprehensive overview of all competencies, experience, and achievements.
-%% Use as a master reference when tailoring role-specific CVs.
+%% Use as a master reference when tailoring role-specific CVs with /apply.
 %%
-%% SETUP: Run /setup to populate this with your actual information.
 %% Compile with: lualatex main_example.tex
 %% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
 
@@ -11,31 +10,31 @@
 \moderncvcolor{blue}
 
 % Force both first and last name AND section headings to render in moderncv
-% blue (color1). Default banking on lualatex+MiKTeX leaves these black, which
-% looks inconsistent with the rest of the blue accent scheme.
+% blue (color1). Default banking on lualatex+MiKTeX leaves these black.
 \renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
 \renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
 \renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
 
 \usepackage[utf8]{inputenc}
+\usepackage{needspace}
 \usepackage{hyperref}
 \hypersetup{
     colorlinks=true,
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Ashbin Jaison - CV},
     pdfpagemode=FullScreen,
 }
-\usepackage[scale=0.80]{geometry}
+\usepackage[scale=0.77]{geometry}
 \usepackage{import}
 
 % personal data
-\name{[First]}{[Last]}
-\address{[Your Address, City, Country]}{}{}
-\phone[mobile]{[+XX XXXXXXXXXX]}
-\email{[your.email@example.com]}
-\extrainfo{\href{[https://linkedin.com/in/your-profile]}{LinkedIn}, \href{[https://github.com/your-username]}{GitHub}}
+\name{Ashbin}{Jaison}
+\address{Bergen, Norway}{}{}
+\phone[mobile]{+47 486 251 21}
+\email{ashbinjaison@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/ashbin-jaison/}{LinkedIn}, \href{https://github.com/ashbin-jaison}{GitHub}}
 
 \begin{document}
 
@@ -46,7 +45,7 @@
 % ============================================================
 
 \vspace{6pt}
-\small{[Write a 3-5 line profile statement tailored to the role you're applying for. Focus on what makes you uniquely qualified. Example: "Data scientist with a PhD in [field] and X years of industry experience. Combines deep domain expertise in [domain] with strong applied machine learning and Python development skills. Experienced in developing end-to-end ML pipelines, from data ingestion to stakeholder-facing dashboards."]}
+\small{Quantitative meteorologist and data scientist with a PhD in climate risk modelling, specialising in operational weather forecasting, forecast verification, and probabilistic modelling for decision-making under uncertainty. Experienced in evaluating NWP outputs (ECMWF, NORA3), building forecast-driven predictive models, and translating complex meteorological data into actionable insights for energy and risk stakeholders. Strong Python developer with production pipeline experience. Motivated to apply weather intelligence directly to real-time energy trading and operational decisions.}
 
 % ============================================================
 %     CORE COMPETENCIES
@@ -56,15 +55,15 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item \textbf{[Skill Category 1]}: [Specific skills, frameworks, tools. Be concrete.]
+\item \textbf{Forecast Evaluation \& Verification}: RMSE, Brier score, reliability analysis, ensemble spread-skill, probabilistic calibration
 
-\item \textbf{[Skill Category 2]}: [Specific skills, frameworks, tools.]
+\item \textbf{Weather Model Integration}: ECMWF, GFS, ERA5, NORA3; reanalysis + NWP pipelines; NetCDF/GRIB processing with xarray
 
-\item \textbf{[Skill Category 3]}: [Specific skills, frameworks, tools.]
+\item \textbf{Spatiotemporal ML}: Time series forecasting, ensemble methods, statistical downscaling, uncertainty quantification; scikit-learn, XGBoost, LightGBM, PyTorch
 
-\item \textbf{[Skill Category 4]}: [Domain expertise, methods, approaches.]
+\item \textbf{Energy \& Wind Forecasting}: Wind power modelling across Norwegian bidding zones; meteorological feature engineering
 
-\item \textbf{[Skill Category 5]}: [Tools, platforms, software.]
+\item \textbf{Python \& Data Engineering}: NumPy, Pandas, xarray; ECMWF API ingestion; production pipeline integration; GitHub; PowerBI, matplotlib
 
 \end{itemize}
 
@@ -76,32 +75,46 @@
 \vspace{3pt}
 \begin{itemize}
 
-% --- Most Recent Role ---
-\item{\cventry{[YYYY--Present]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\needspace{5\baselineskip}
+\item{\cventry{Mar 2025--Jan 2026}{Climate Data Scientist}{Admaren Tech.}{Cochin, India}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1 - be specific, use numbers where possible]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
-    \item [Achievement or responsibility 4]
+    \item Built ECMWF API pipelines for global wave statistics applications
+    \item Quantified extreme event probabilities for maritime risk assessment
+    \item Designed data processing pipelines for operational ocean-weather datasets
+    \item Collaborated with software engineers to integrate analytics into production systems
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Previous Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\needspace{5\baselineskip}
+\item{\cventry{Jan 2021--Jan 2025}{PhD Research Fellow, Climate Risk}{University of Bergen}{Bergen, Norway}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
+    \item Developed ML-based models integrating operational weather forecasts with impact prediction
+    \item Evaluated forecast skill and model performance using probabilistic verification metrics (RMSE, Brier score, reliability analysis)
+    \item Built statistical downscaling models for high-resolution wind hazard assessment
+    \item Quantified uncertainty in extreme storm scenarios using ensemble frameworks
+    \item Improved impact forecast skill by $\sim$40\% through systematic calibration and model refinement
+    \item Translated technical model results into risk insights for insurance stakeholders
 \end{itemize}}}
 
-\vspace{3pt}
+\end{itemize}
 
-% --- Earlier Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+% ============================================================
+%     ENERGY-RELATED PROJECTS
+% ============================================================
+
+\section{Energy-Related Projects}
+\vspace{3pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
+
+\needspace{5\baselineskip}
+\item{\cventry{2025}{Wind Power Forecasting}{NORA AI Hackathon}{}{}{\vspace{1pt}
+\href{https://github.com/ashbin-jaison/windai}{github.com/ashbin-jaison/windai}
+\begin{itemize}
+    \item Built ML models forecasting wind power generation across Norwegian bidding zones
+    \item Combined meteorological forecast inputs with wind farm level power production data
+    \item Improved forecast accuracy by $>$50\% via ensemble modelling and feature engineering
+    \item Tested Linear Regression, Random Forest, XGBoost, LightGBM, and Ensemble methods
 \end{itemize}}}
 
 \end{itemize}
@@ -114,16 +127,33 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-Thesis: ``[Thesis Title].'' [Brief description of research focus.]
+\needspace{5\baselineskip}
+\item{\cventry{Jan 2021--Jan 2025}{PhD, Applied Statistics -- Climate Risk Modeling}{University of Bergen}{Bergen, Norway}{}{\vspace{1pt}
+Thesis: ``StormRisk: Linking Norwegian windstorms and damage, future risk and the feasibility of impact based forecasting.'' Supervisors: Asgeir Sorteberg \& \O yvind Breivik.
 }}
 
 \vspace{3pt}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-[Brief description or key topics.]
-}}
+\item{\cventry{2018--2020}{M.Sc Statistics (First Class with Distinction)}{Cochin University of Science and Technology}{India}{}{}}
 
+\vspace{3pt}
+
+\item{\cventry{2015--2018}{B.Sc Mathematics (A$+$, CGPA 9.17)}{Mahatma Gandhi University}{Kottayam, Kerala, India}{}{}}
+
+\end{itemize}
+
+% ============================================================
+%     PUBLICATIONS
+% ============================================================
+
+\section{Publications}
+\vspace{1pt}
+\begin{itemize}
+\item Jaison, A., Sorteberg, A., Michel, C. \& Breivik, \O. (2024). ``Assessment of wind--damage relations for Norway using 36 years of daily insurance data.'' \textit{Natural Hazards and Earth System Sciences}, 24, 1341--1355. \href{https://doi.org/10.5194/nhess-24-1341-2024}{doi:10.5194/nhess-24-1341-2024}
+
+\item Jaison, A., Michel, C., Sorteberg, A. \& Breivik, \O. (2024). ``Projections of windstorms damages under changing climate and demography for Norway.'' \textit{Environmental Research: Climate}, 3, 045006. \href{https://doi.org/10.1088/2752-5295/ad6a2f}{doi:10.1088/2752-5295/ad6a2f}
+
+\item Jaison, A., Michel, C., Sorteberg, A. \& Breivik, \O. (2025). ``Towards Impact-Based Forecasting of Storm-Damages Using Locally Calibrated Damage Functions.'' \textit{Meteorological Applications}, 32:e70087. \href{https://doi.org/10.1002/met.70087}{doi:10.1002/met.70087}
 \end{itemize}
 
 % ============================================================
@@ -133,27 +163,31 @@ Thesis: ``[Thesis Title].'' [Brief description of research focus.]
 \section{Languages}
 \vspace{1pt}
 \begin{itemize}
-\item [Language 1] (native), [Language 2] (fluent), [Language 3] (intermediate).
+\item English (fluent), Norwegian (beginner)
 \end{itemize}
 
 % ============================================================
-%     PUBLICATIONS (optional)
+%     CERTIFICATIONS
 % ============================================================
 
-\section{Publications}
+\section{Certifications}
 \vspace{1pt}
 \begin{itemize}
-\item [Author(s)] ([Year]). [Title]. [Journal/Conference]. \href{[DOI_URL]}{DOI link}
+\item Introduction to Generative AI -- Google Cloud (2025)
+\item Azure Fundamentals -- DataCamp (2025)
+\item Machine Learning Scientist with Python -- DataCamp
+\item Deep Learning Professional Certificate -- IBM / edX
 \end{itemize}
 
 % ============================================================
-%     HONORS AND AWARDS (optional)
+%     HONORS AND AWARDS
 % ============================================================
 
 \section{Honors and Awards}
 \vspace{1pt}
 \begin{itemize}
-\item{\textbf{[Award Name]} -- [Event/Organization] ([Year]).}
+\item{\textbf{First Class with Distinction} -- M.Sc Statistics, Cochin University of Science and Technology (2020).}
+\item{\textbf{A$+$ grade, CGPA 9.17} -- B.Sc Mathematics, Mahatma Gandhi University (2018).}
 \end{itemize}
 
 % ============================================================

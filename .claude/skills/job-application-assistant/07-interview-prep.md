@@ -8,32 +8,79 @@ Structure answers as: **Situation** (context), **Task** (your responsibility), *
 
 Keep answers to 1-2 minutes. Be specific. End with what you learned or would do differently.
 
-## Ready-Made STAR Examples
+## STAR Candidates (Complete Manually)
 
-<!-- These are populated by /setup from your actual experience. Below are templates showing the format. -->
+<!-- Populated by /setup from CV and diploma evidence. Fill in the S/T/A/R details before using in interviews. -->
 
-### 1. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT - what was happening, what was the problem]
-**T:** [YOUR RESPONSIBILITY - what you specifically needed to do]
-**A:** [WHAT YOU DID - specific actions, tools, methods]
-**R:** [OUTCOME - measurable results, adoption, impact]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 1. ~40% Impact Forecast Skill Improvement (PhD – Model Calibration)
+**Source:** CV, PhD Research Fellow role, University of Bergen
+**What happened:** Improved the skill of impact-based storm forecasts through systematic calibration and model refinement during PhD research.
+**Why it matters:** Answers "Tell me about a time you improved a model or process", "Give me an example of iterative problem solving", "Tell me about a technical achievement you're proud of"
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result: Impact forecast skill improved by ~40%
 
-### 2. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 2. >50% Wind Power Forecast Accuracy Improvement (NORA AI Hackathon 2025)
+**Source:** CV, Energy-Related Projects section; github.com/ashbin-jaison/windai
+**What happened:** Built ensemble ML models combining meteorological forecast inputs with wind farm power production data, achieving >50% accuracy improvement over baseline.
+**Why it matters:** Answers "Tell me about a project you're proud of", "Tell me about a time you worked under time pressure", "Describe your approach to feature engineering and model selection"
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action: Tested Linear Regression, Random Forest, XGBoost, LightGBM, and ensemble methods; combined met forecasts with power production data
+- Result: >50% forecast accuracy improvement
 
-### 3. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 3. ECMWF API Pipeline for Maritime Risk (Admaren Tech., 2025–2026)
+**Source:** CV, Climate Data Scientist role, Admaren Tech.
+**What happened:** Built end-to-end ECMWF API data pipelines for global wave statistics and integrated analytical outputs into production systems alongside software engineers.
+**Why it matters:** Answers "Tell me about a time you delivered a technical solution end-to-end", "Describe working with a cross-functional team", "Tell me about a time you built something that went into production"
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action: Built ECMWF API pipelines, designed data processing workflows, collaborated with software engineers
+- Result: Production-integrated ocean-weather analytics system
 
-<!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
+### 4. EGU General Assembly Poster Presentation (2023, Vienna)
+**Source:** PhD transcript, GEOF920, Apr 2023
+**What happened:** Presented PhD research findings as a poster at the EGU General Assembly 2023 in Vienna — one of the largest international geosciences conferences.
+**Why it matters:** Answers "Tell me about communicating complex findings to an audience", "Give an example of presenting technical work to peers", "Tell me about representing your organisation externally"
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action: Prepared and presented poster "Storms and associated damages in Norway" at EGU General Assembly, Vienna
+- Result:
+
+### 5. First-Author Publication: Wind–Damage Relations (NHESS 2024)
+**Source:** Publication — *Natural Hazards and Earth System Sciences*, Apr 2024
+**What happened:** Led a study fitting and comparing four storm damage functions for all 356 Norwegian municipalities using 36 years of daily insurance loss data and NORA3 wind speed data. Developed a probabilistic damage classifier (sigmoid-based) to distinguish damaging from non-damaging wind events.
+**Why it matters:** Answers "Tell me about a research project you led end-to-end", "Describe handling messy or skewed real-world data", "Tell me about a time you published or delivered a technical artefact", "Give an example of rigorous model comparison"
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action: Fitted exponential, Klawa, probabilistic Prahl and modified Prahl damage functions at municipality level; developed sigmoid-based damage classifier; validated against held-out storm events
+- Result: Published in NHESS; showed good agreement between observed and estimated losses; classifier shows skill at distinguishing damaging events at municipality level
+
+### 6. First-Author Publication: Climate Change Projections (ERL Climate 2024)
+**Source:** Publication — *Environmental Research: Climate*, Aug 2024
+**What happened:** Applied municipality-level damage functions to 20 bias-corrected EURO-CORDEX regional climate model simulations (RCP8.5) to project future windstorm losses for Norway through 2100 under changing climate and demography.
+**Why it matters:** Answers "Tell me about working with large-scale uncertainty", "Describe a project with long-term real-world impact", "Tell me about combining multiple models or data sources", "Give an example of quantifying risk under climate change"
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action: Applied four damage functions to 20 EURO-CORDEX simulations; incorporated municipality-level population projections; separated climate vs. demographic contributions to future loss changes
+- Result: Published in ERL Climate; showed storm losses projected to increase nationally but with regional variation; highlighted sensitivity to damage function and model choice
+
+### 7. First-Author Publication: Operational Impact Forecasting (Met. Apps. 2025)
+**Source:** Publication — *Meteorological Applications*, 2025
+**What happened:** Designed and tested the first operational impact-based storm damage forecasting framework for Norway, using MetCoOp MEPS ensemble predictions and locally calibrated damage functions. Built a two-step system: color-coded probability warnings + monetary damage forecasts.
+**Why it matters:** Answers "Tell me about translating research into a practical/operational tool", "Describe building something with real decision-making value", "Give an example of bridging science and operations", "Tell me about forecasting under uncertainty"
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action: Built damage-informed color-coded warning system (DMG-WS) using sigmoid damage classifiers applied to MEPS forecasts; validated against return-period-based RP-WS; assessed using Heidke skill score on top 5 most damaging events
+- Result: Published in Met. Apps.; DMG-WS outperforms traditional wind-speed-only system; county-specific damages within ensemble range 70% of the time
 
 ## Common Tough Questions
 

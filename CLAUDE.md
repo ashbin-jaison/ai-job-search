@@ -1,10 +1,7 @@
-# Job Application Assistant for [YOUR_NAME]
-
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
+# Job Application Assistant for Ashbin Jaison
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Ashbin Jaison, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -16,65 +13,81 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 <!-- This section is auto-populated by /setup. You can also fill it in manually. -->
 
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
-- **Languages:** [YOUR_LANGUAGES]
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Name:** Ashbin Jaison
+- **Location:** Bergen, Norway (Open to relocation)
+- **Phone:** +47 486 251 21
+- **Email:** ashbinjaison@gmail.com
+- **GitHub:** https://github.com/ashbin-jaison
+- **LinkedIn:** [YOUR_LINKEDIN_URL]
+- **Languages:** English (fluent), Norwegian (beginner)
+- **Status:** Available (Admaren Tech. role ended Jan 2026)
+- **LinkedIn:** https://www.linkedin.com/in/ashbin-jaison/
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **PhD in Applied Statistics – Climate Risk Modeling** (Jan 2021 – Jan 2025) - University of Bergen, Norway
+  - Thesis: "StormRisk: Linking Norwegian windstorms and damage, future risk and the feasibility of impact based forecasting"
+  - Topics: Probabilistic forecasting, NWP evaluation, statistical downscaling, ensemble methods, ML for impact prediction
+  - Supervisors: Asgeir Sorteberg & Øyvind Breivik (UiB)
+- **M.Sc in Statistics** (2018 – 2020) - Cochin University of Science and Technology, India
+  - Grade: First Class with Distinction
+- **B.Sc in Mathematics** (2015 – 2018) - Mahatma Gandhi University, Kottayam, Kerala, India
+  - Grade: A+, CGPA 9.17
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Climate Data Scientist** (Mar 2025 – Jan 2026) - **Admaren Tech.** (Cochin, India)
+  - Built ECMWF API pipelines for global wave statistics applications
+  - Quantified extreme event probabilities for maritime risk assessment
+  - Designed data processing pipelines for operational ocean-weather datasets
+  - Collaborated with software engineers to integrate analytics into production systems
+- **PhD Research Fellow, Climate Risk** (Jan 2021 – Jan 2025) - **University of Bergen** (Bergen, Norway)
+  - Developed ML-based models integrating operational weather forecasts with impact prediction
+  - Evaluated forecast skill using probabilistic verification metrics (RMSE, Brier score, reliability analysis)
+  - Built statistical downscaling models for high-resolution wind hazard assessment
+  - Improved impact forecast skill by ~40% through systematic calibration and model refinement
+  - Translated technical model results into risk insights for insurance stakeholders
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** Python (NumPy, Pandas, xarray, scikit-learn, PyTorch, XGBoost, LightGBM), probabilistic ML, ensemble methods
+- **Secondary:** R, SQL (working knowledge), PowerBI, matplotlib, Google Cloud, Azure
+- **Domain:** Forecast verification, NWP model integration (ECMWF/ERA5/GFS/NORA3), wind & energy forecasting, maritime risk, uncertainty quantification
+- **Software:** NetCDF/GRIB/raster processing, ECMWF API, GitHub
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- **Introduction to Generative AI** – Google Cloud – completed 2025
+- **Azure Fundamentals** – DataCamp – completed 2025
+- **Machine Learning Scientist with Python** – DataCamp
+- **Deep Learning Professional Certificate** – IBM / edX
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+1. Jaison, A., Sorteberg, A., Michel, C. & Breivik, Ø. (2024). "Assessment of wind–damage relations for Norway using 36 years of daily insurance data." *Natural Hazards and Earth System Sciences*, 24, 1341–1355. https://doi.org/10.5194/nhess-24-1341-2024
+2. Jaison, A., Michel, C., Sorteberg, A. & Breivik, Ø. (2024). "Projections of windstorms damages under changing climate and demography for Norway." *Environmental Research: Climate*, 3, 045006. https://doi.org/10.1088/2752-5295/ad6a2f
+3. Jaison, A., Michel, C., Sorteberg, A. & Breivik, Ø. (2025). "Towards Impact-Based Forecasting of Storm-Damages Using Locally Calibrated Damage Functions." *Meteorological Applications*, 32:e70087. https://doi.org/10.1002/met.70087
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+- First Class with Distinction – M.Sc Statistics, CUSAT (2020)
+- A+ grade, CGPA 9.17 – B.Sc Mathematics, Mahatma Gandhi University (2018)
+- NORA AI Hackathon (2025) – Wind Power Forecasting project (>50% accuracy improvement)
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+- **Results-oriented** – consistently quantifies achievements; outcome-driven working style
+- **Analytical depth** – leads with probabilistic methods and systematic model evaluation
+- **Stakeholder communicator** – translates complex technical outputs into actionable insights
+- **Strengths:** Quantitative modelling, applied ML, domain-grounded analysis, cross-functional collaboration
+- **Growth areas:** [TO BE CONFIRMED]
+- **Thrives in:** Applied environments where modelling outputs drive real decisions; cross-functional teams with technical peers
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Innovative work where you make real contributions to hard problems — prefers startups and high-impact environments over process-heavy large corporations
+- Applied weather and forecast science with tangible outcomes (energy, risk, catastrophe modelling)
+- Also drawn to leading insurance/reinsurance firms for the technical depth and real-world stakes
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- **Weather & Energy Analytics:** StormGeo, Equinor, energy forecasting startups, weather intelligence companies
+- **Insurance & Reinsurance:** Moodys (RMS), WTW, Gallagher Re, AON, SwissRe, MunichRe
+- **Startups:** Any innovative company applying weather/climate data to real-world decisions
 
 ### Deal-breakers
-<!-- Hard constraints on job search -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- None stated
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)
@@ -122,7 +135,7 @@ After creating or updating a CV or cover letter, re-read the generated file and 
 ### Compiled PDF verification (MANDATORY - never skip)
 Both documents MUST be compiled and visually inspected via the Read tool on the PDF output. "Looks fine in the .tex" is not acceptable - LaTeX page-break decisions are unpredictable. Iterate until these all pass:
 - [ ] CV compiled with **lualatex** (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors). Cover letter compiled with **xelatex** (cover.cls requires fontspec).
-- [ ] **CV is exactly 2 pages** - not 1, not 3
+- [ ] **CV is exactly 1 page** - not more
 - [ ] **No orphaned `\cventry` titles** - a job/education title must never sit at the bottom of a page with its bullets spilling to the next page. Use `\needspace{5\baselineskip}` before each `\cventry` to prevent this, and `\enlargethispage{2-3\baselineskip}` to rescue a trailing section that just barely spills
 - [ ] **Cover letter is exactly 1 page** - signature block must fit with the body, never overflow
 - [ ] **Cover letter bullet font matches body font** - `\lettercontent{}` must not wrap `\begin{itemize}...\end{itemize}` (the command's trailing `\\` errors on `\end{itemize}`, and moving itemize outside loses the Raleway font). Standard pattern: close `\lettercontent{}`, then wrap the list in `{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont \begin{itemize}...\end{itemize}\par}`
