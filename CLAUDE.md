@@ -106,6 +106,18 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 **Publications in CV:** Include the Publications section only when applying for postdoc or academic research roles. For all industry roles (data scientist, ML engineer, analyst, consultant, etc.), omit the Publications section — the papers are already signalled by the PhD entry and can be discussed in interviews.
 
+**Academic-to-industry translation (applies to all industry applications):**
+
+Ashbin's background is heavily academic (PhD + 3 publications). When tailoring for industry, always reframe it as applied, delivery-oriented work. Specific rules:
+
+- **Verbs:** Replace academic verbs ("investigated", "studied", "analysed", "explored") with delivery verbs ("built", "developed", "delivered", "improved", "quantified", "deployed", "integrated").
+- **PhD bullets:** Frame around outputs and impact, not research process. e.g. "Improved impact forecast skill by ~40%" not "Conducted research into forecast calibration methods."
+- **Thesis title:** Only mention it if directly relevant to the role. Otherwise omit or reduce to one clause ("PhD on windstorm risk modelling for the insurance sector").
+- **Publications:** Do not list in CV. May be referenced briefly in cover letters for research-adjacent roles (e.g. cat modelling, R&D at weather companies) as evidence of rigour — one sentence max.
+- **Profile statement:** Lead with practical capability and domain value, not academic credentials. e.g. "quantitative data scientist with PhD-level expertise in..." not "PhD researcher specialising in...".
+- **Stakeholder language:** Frame outputs in terms of business value — insurance risk, energy decisions, operational forecasting — not in terms of academic contribution or literature gaps.
+- **Job title framing:** "PhD Research Fellow" is a legitimate title; keep it. But all surrounding context should emphasise what was built and delivered, not what was studied.
+
 ## Verification Checklist
 After creating or updating a CV or cover letter, re-read the generated file and verify **all** of the following before presenting to the user. Report the results as a pass/fail checklist.
 
