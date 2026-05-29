@@ -104,6 +104,8 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 **Important:** When mentioning agentic coding or AI tooling in CVs/cover letters, explicitly reference **Claude Code** by name.
 
+**Publications in CV:** Include the Publications section only when applying for postdoc or academic research roles. For all industry roles (data scientist, ML engineer, analyst, consultant, etc.), omit the Publications section — the papers are already signalled by the PhD entry and can be discussed in interviews.
+
 ## Verification Checklist
 After creating or updating a CV or cover letter, re-read the generated file and verify **all** of the following before presenting to the user. Report the results as a pass/fail checklist.
 
