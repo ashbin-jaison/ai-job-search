@@ -1,0 +1,186 @@
+{
+  "seen": {
+    "stormgeo-data-scientist-energy-analytics": {
+      "title": "Data Scientist – Energy Analytics",
+      "company": "StormGeo",
+      "url": "https://jobbsafari.no/jobb/data-scientist-energy-analytics-349207",
+      "first_seen": "2026-05-29",
+      "fit": "high",
+      "status": "new"
+    },
+    "norsk-hydro-power-market-data-scientist": {
+      "title": "Power Market / Data Scientist (Analysis Focused)",
+      "company": "Norsk Hydro",
+      "url": "https://no.linkedin.com/jobs/view/power-market-data-scientist-analysis-focused-at-norsk-hydro-4419456212",
+      "first_seen": "2026-05-29",
+      "fit": "high",
+      "status": "applied"
+    },
+    "statkraft-trading-meteorologist-renewables": {
+      "title": "Trading Meteorologist – Renewables Forecasting",
+      "company": "Statkraft",
+      "url": "https://jobs.smartrecruiters.com/Statkraft1/744000127211414-trading-meteorologist-renewables-forecasting-m-f-d-",
+      "first_seen": "2026-05-29",
+      "fit": "high",
+      "status": "new"
+    },
+    "statkraft-commercial-analyst-renewables": {
+      "title": "Commercial Analyst – Renewables Forecasting",
+      "company": "Statkraft",
+      "url": "https://jobs.smartrecruiters.com/Statkraft1/744000127366459--commercial-analyst-renewables-forecasting-m-f-d-",
+      "first_seen": "2026-05-29",
+      "fit": "high",
+      "status": "new"
+    },
+    "statkraft-senior-commercial-analyst-renewables": {
+      "title": "Senior Commercial Analyst – Renewables Forecasting",
+      "company": "Statkraft",
+      "url": "https://jobs.smartrecruiters.com/Statkraft1/744000127301390--senior-commercial-analyst-renewables-forecasting-m-f-d-",
+      "first_seen": "2026-05-29",
+      "fit": "medium",
+      "status": "new"
+    },
+    "met-norway-oceanography-ml-researcher": {
+      "title": "Researcher/Project Assistant – Oceanography and Machine Learning",
+      "company": "Meteorologisk institutt (MET Norway)",
+      "url": "https://www.jobbnorge.no/ledige-stillinger/stilling/299824/forskar-prosjektassistent-i-oseanografi-og-maskinlaering",
+      "first_seen": "2026-05-29",
+      "fit": "medium",
+      "status": "new"
+    },
+    "alpiq-desk-strategist-power": {
+      "title": "Desk Strategist Power",
+      "company": "Alpiq Group",
+      "url": "https://www.euroclimatejobs.com/job_display/291334/Desk_Strategist_Power_Alpiq_Group_Oslo_Norway",
+      "first_seen": "2026-05-29",
+      "fit": "low",
+      "status": "new"
+    },
+    "eviny-meteorolog": {
+      "title": "Meteorolog",
+      "company": "Eviny Fornybar AS",
+      "url": "https://www.finn.no/job/ad/454628368",
+      "first_seen": "2026-05-30",
+      "fit": "high",
+      "status": "skipped",
+      "note": "Closed – deadline Apr 5 2026"
+    },
+    "met-norway-statsmeteorolog": {
+      "title": "Statsmeteorolog",
+      "company": "Meteorologisk institutt (MET Norway)",
+      "url": "https://www.finn.no/job/ad/459768292",
+      "first_seen": "2026-05-30",
+      "fit": "medium",
+      "status": "skipped",
+      "note": "Closed – deadline Apr 27 2026"
+    },
+    "stormgeo-senior-data-scientist": {
+      "title": "Senior Data Scientist",
+      "company": "StormGeo",
+      "url": "https://www.finn.no/job/ad/438986476",
+      "first_seen": "2026-05-30",
+      "fit": "high",
+      "status": "skipped",
+      "note": "Closed – deadline Dec 24 2025"
+    },
+    "pwc-bergen-data-ai": {
+      "title": "Konsulent – Data & AI",
+      "company": "PwC Norge",
+      "url": "https://www.finn.no/job/ad/440394641",
+      "first_seen": "2026-05-30",
+      "fit": "medium",
+      "status": "skipped",
+      "note": "Closed – deadline Jan 6 2026"
+    },
+    "bearingpoint-senior-ds-industry40": {
+      "title": "Senior Data Scientist – Industry 4.0",
+      "company": "BearingPoint",
+      "url": "https://www.finn.no/job/ad/460220294",
+      "first_seen": "2026-05-30",
+      "fit": "low",
+      "status": "new",
+      "note": "OPEN – but requires fluent Norwegian"
+    },
+    "finn-eiendom-senior-ds": {
+      "title": "Senior Data Scientist",
+      "company": "Vend / FINN.no",
+      "url": "https://www.finn.no/job/ad/454561504",
+      "first_seen": "2026-05-30",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Closed – real estate domain"
+    },
+    "simula-senior-ds": {
+      "title": "Senior Data Scientist",
+      "company": "Simula Research Laboratory",
+      "url": "https://www.finn.no/job/ad/441584842",
+      "first_seen": "2026-05-30",
+      "fit": "medium",
+      "status": "skipped",
+      "note": "Closed – deadline Jan 13 2026"
+    },
+    "met-norway-ml-weather-scientist": {
+      "title": "Machine Learning Scientist – Data-Driven Weather Forecasting",
+      "company": "Meteorologisk institutt (MET Norway)",
+      "url": "https://www.jobbnorge.no/en/available-jobs/job/284016",
+      "first_seen": "2026-05-30",
+      "fit": "high",
+      "status": "skipped",
+      "note": "Closed – deadline Jul 28 2025"
+    },
+    "akerb-ai-ml-engineer": {
+      "title": "AI and Machine-Learning Engineer",
+      "company": "Aker BP ASA",
+      "url": "https://www.finn.no/job/ad/463806541",
+      "first_seen": "2026-05-30",
+      "fit": "medium",
+      "status": "new",
+      "note": "OPEN – deadline May 30 2026 (today). LLM/agentic focus."
+    },
+    "akerb-senior-ai-ml-scientist": {
+      "title": "Senior AI & ML Scientists",
+      "company": "Aker BP ASA",
+      "url": "https://www.finn.no/job/ad/463806796",
+      "first_seen": "2026-05-30",
+      "fit": "high",
+      "status": "new",
+      "note": "OPEN – deadline May 30 2026 (today). PhD required, uncertainty quantification, probabilistic ML."
+    },
+    "protector-analytiker": {
+      "title": "Analytiker",
+      "company": "Protector Forsikring Norge",
+      "url": "https://www.finn.no/job/ad/464001342",
+      "first_seen": "2026-05-30",
+      "fit": "medium",
+      "status": "new",
+      "note": "OPEN – deadline Jun 1 2026. Requires fluent Norwegian."
+    },
+    "equinor-ml-engineer-ds": {
+      "title": "Machine Learning Engineer / Data Scientist",
+      "company": "Equinor ASA",
+      "url": "https://no.linkedin.com/jobs/view/machine-learning-engineer-data-scientist-at-equinor-3817864769",
+      "first_seen": "2026-05-30",
+      "fit": "high",
+      "status": "skipped",
+      "note": "Closed – deadline Feb 2024"
+    },
+    "dnv-research-trainee-2026": {
+      "title": "Research Trainee 2026",
+      "company": "DNV",
+      "url": "https://jobs.dnv.com/job-search/group/engineer/oslo-norway-trondheim-norway/research-trainee-2026/300001244907987",
+      "first_seen": "2026-05-30",
+      "fit": "medium",
+      "status": "skipped",
+      "note": "Closed – deadline Oct 2025"
+    },
+    "akerb-graduate-ds-2026": {
+      "title": "Graduate 2026 – Data Scientist",
+      "company": "Aker BP ASA",
+      "url": "https://www.finn.no/job/fulltime/ad.html?finnkode=416787868",
+      "first_seen": "2026-05-30",
+      "fit": "medium",
+      "status": "skipped",
+      "note": "Closed – deadline Aug 2025"
+    }
+  }
+}
