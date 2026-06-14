@@ -1,0 +1,125 @@
+%% CV - Oda, Senior Data Analyst (vikariat)
+%% Compile with: lualatex -interaction=nonstopmode main_oda.tex
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+\renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\usepackage{needspace}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+    pdftitle={Ashbin Jaison - CV},
+    pdfpagemode=FullScreen,
+}
+\usepackage[scale=0.79]{geometry}
+\nopagenumbers{}
+
+\name{Ashbin}{Jaison}
+\address{Bergen, Norway (open to relocation)}{}{}
+\phone[mobile]{+47 486 251 21}
+\email{ashbinjaison@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/ashbin-jaison/}{LinkedIn}, \href{https://github.com/ashbin-jaison}{GitHub}}
+
+\begin{document}
+
+\makecvtitle
+\enlargethispage{8\baselineskip}
+
+% ============================================================
+%     PROFILE STATEMENT
+% ============================================================
+
+\vspace{2pt}
+\small{Quantitative data scientist with a PhD in applied statistics and 5 years building analytical frameworks, defining impact metrics, and translating complex datasets into decisions for cross-functional stakeholders. Core stack is Python and SQL; experienced in statistical evaluation, hypothesis testing, A/B testing methodology, and designing measurement frameworks in fast-moving, iterative product environments.}
+
+% ============================================================
+%     CORE COMPETENCIES
+% ============================================================
+
+\section{Core Competencies}
+\vspace{1pt}
+\begin{itemize}
+
+\item \textbf{Data Analytics \& Python}: pandas, NumPy, scikit-learn, XGBoost, LightGBM, matplotlib; large dataset analysis; statistical modelling and hypothesis testing to measure outcome improvements
+
+\item \textbf{Impact Metrics \& Experimentation}: Defined and tracked success metrics across a 4-year programme; designed controlled comparison experiments and interpreted statistical results to measure outcome improvements; probabilistic evaluation (RMSE, Brier score, reliability analysis); systematic model calibration and refinement
+
+\item \textbf{SQL \& Data Modelling}: SQL for analytical queries, data extraction, and data modelling; automated data ingestion and processing pipelines (ECMWF API, NetCDF/GRIB, xarray) for operational datasets
+
+\item \textbf{Stakeholder Communication \& Visualisation}: Translating complex quantitative outputs into accessible insights, reports, and dashboards (Python/matplotlib, Power BI); bridging data analysis and business decisions for technical and non-technical audiences; improving analytical approaches for non-technical stakeholders
+
+\end{itemize}
+
+% ============================================================
+%     PROFESSIONAL EXPERIENCE
+% ============================================================
+
+\section{Professional Experience}
+\vspace{3pt}
+\begin{itemize}
+
+\needspace{5\baselineskip}
+\item{\cventry{Mar 2025--Jan 2026}{Climate Data Scientist}{Admaren Tech.}{Cochin, India}{}{\vspace{1pt}
+\begin{itemize}
+    \item Built automated data pipelines and delivered analytics on operational ocean-weather datasets; collaborated with software engineers to integrate outputs into production systems
+    \item Quantified extreme event probabilities to support maritime risk decisions; produced dashboards and analytical reports translating findings into operational recommendations for clients
+\end{itemize}}}
+
+\vspace{3pt}
+
+\needspace{5\baselineskip}
+\item{\cventry{Jan 2021--Jan 2025}{PhD Research Fellow, Climate Risk}{University of Bergen}{Bergen, Norway}{}{\vspace{1pt}
+\begin{itemize}
+    \item Defined impact and success metrics for windstorm prediction models; designed evaluation frameworks and interpreted experimental results to measure outcome improvements; improved forecast quality by $\sim$40\% through systematic hypothesis testing and calibration against observed outcomes
+    \item Addressed ambiguous analysis problems by gathering domain expert input and synthesising coherent evaluation frameworks; identified and corrected flawed model assumptions to improve output reliability
+    \item Produced analytical reports and risk insights for insurance stakeholders; translated complex probabilistic outputs into accessible findings and recommendations, enabling non-technical decision-makers to act on model results
+\end{itemize}}}
+
+\end{itemize}
+
+% ============================================================
+%     INDEPENDENT PROJECTS
+% ============================================================
+
+\section{Selected Projects}
+\vspace{1pt}
+\begin{itemize}
+\item \textbf{Wind Power Forecasting -- NORA AI Hackathon (2025):} Built and benchmarked ensemble ML models (XGBoost, LightGBM, Random Forest); improved forecast accuracy by $>$50\% via systematic feature engineering and optimisation. Ran structured model comparisons as controlled experiments with defined metrics; documented methodology, results, and evaluation framework.
+\end{itemize}
+
+% ============================================================
+%     EDUCATION
+% ============================================================
+
+\section{Education}
+\vspace{1pt}
+\begin{itemize}
+
+\item{\cventry{Jan 2021--Jan 2025}{PhD, Applied Statistics -- Climate Risk Modeling}{University of Bergen}{Bergen, Norway}{}{}}
+
+\vspace{3pt}
+
+\item{\cventry{2018--2020}{M.Sc Statistics (First Class with Distinction)}{Cochin University of Science and Technology}{India}{}{}}
+
+\end{itemize}
+
+% ============================================================
+%     LANGUAGES & CERTIFICATIONS
+% ============================================================
+
+\section{Languages \& Certifications}
+\vspace{1pt}
+\begin{itemize}
+\item English (fluent), Norwegian (beginner)
+\item Introduction to Generative AI -- Google Cloud (2025); Azure Fundamentals -- DataCamp (2025); Machine Learning Scientist -- DataCamp; Deep Learning Professional Certificate -- IBM/edX
+\end{itemize}
+
+\end{document}
